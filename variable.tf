@@ -34,3 +34,14 @@ variable "name_tag" {
    description = "Name of the EC2 instance"
    default     = "My EC2 Instance"
 }
+variable "subnet_id" {
+  description = "Existing Subnet ID in the VPC"
+  type        = string
+  default     = "subnet-046791806a6b01b9a" # You must replace this with a valid subnet in vpc-02a90c61555653d77
+}
+
+variable "security_group_id" {
+  description = "Existing Security Group ID"
+  type        = string
+  default     = "sg-06b9b5d7d26db3ffc"
+}
