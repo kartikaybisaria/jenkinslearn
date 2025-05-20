@@ -37,11 +37,11 @@ variable "name_tag" {
 variable "subnet_id" {
   description = "Existing Subnet ID in the VPC"
   type        = string
-  default     = "subnet-046791806a6b01b9a" # You must replace this with a valid subnet in vpc-02a90c61555653d77
+  default     = "subnet-02cd14d70290e1c72" # You must replace this with a valid subnet in vpc-02a90c61555653d77
 }
 
 variable "security_group_id" {
   description = "Existing Security Group ID"
   type        = string
-  default     = "sg-06b9b5d7d26db3ffc"
+  default     = "sg-08948db227912d39f"
 }
